@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SneakHub — ร้านรองเท้าออนไลน์</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">SNEAK<span class="dot">HUB</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html" class="cart-link">Cart <span id="cart-count">0</span></a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="เปิดเมนู">☰</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="hero-eyebrow">New Season Drop</span>
+      <h1>ก้าวต่อไป<br>ของคุณ<br><span>เริ่มที่นี่</span></h1>
+      <p>รองเท้าจากแบรนด์ชั้นนำ Nike, Adidas, Puma และ Converse คัดสรรมาเพื่อทุกไลฟ์สไตล์ ในราคาที่คุณเลือกได้เอง</p>
+      <div class="hero-actions">
+        <a href="products.html" class="btn btn-primary">ช้อปเลย</a>
+        <a href="#brands" class="btn btn-outline">ดูแบรนด์ทั้งหมด</a>
+      </div>
+    </div>
+    <div class="hero-box-label">
+      <div class="row"><span>PRODUCT</span><b>SneakHub Collection</b></div>
+      <div class="row"><span>ITEMS AVAILABLE</span><b>16 pairs</b></div>
+      <div class="row"><span>BRANDS</span><b>4 brands</b></div>
+      <div class="row"><span>FREE SHIPPING</span><b>ยอด ≥ ฿3,000</b></div>
+      <div class="barcode"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-strip">
+  <div class="wrap about-grid">
+    <div class="about-card">
+      <span class="num">01</span>
+      <h3>ของแท้ 100%</h3>
+      <p>สินค้าทุกคู่นำเข้าและตรวจสอบคุณภาพก่อนจัดส่งทุกครั้ง มั่นใจได้ในทุกกล่อง</p>
+    </div>
+    <div class="about-card">
+      <span class="num">02</span>
+      <h3>ค้นหาได้แม่นยำ</h3>
+      <p>ระบบค้นหาและกรองสินค้าตามแบรนด์และช่วงราคา ช่วยให้เจอคู่ที่ใช่ได้เร็วขึ้น</p>
+    </div>
+    <div class="about-card">
+      <span class="num">03</span>
+      <h3>ตะกร้าอัจฉริยะ</h3>
+      <p>บันทึกตะกร้าของคุณไว้อัตโนมัติ พร้อมส่วนลด 10% เมื่อช้อปครบ ฿3,000</p>
+    </div>
+  </div>
+</section>
+
+<!-- BRAND CATEGORIES -->
+<section id="brands">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="section-eyebrow">Shop by Brand</span>
+        <h2>หมวดหมู่แบรนด์</h2>
+      </div>
+      <p>เลือกช้อปตามแบรนด์ที่คุณชื่นชอบ แต่ละแบรนด์มี 4 รุ่นให้เลือก</p>
+    </div>
+    <div class="category-grid">
+      <a class="category-tile" href="products.html">
+        <span class="brand-name">Nike</span>
+        <span class="brand-count">4 รุ่น</span>
+      </a>
+      <a class="category-tile" href="products.html">
+        <span class="brand-name">Adidas</span>
+        <span class="brand-count">4 รุ่น</span>
+      </a>
+      <a class="category-tile" href="products.html">
+        <span class="brand-name">Puma</span>
+        <span class="brand-count">4 รุ่น</span>
+      </a>
+      <a class="category-tile" href="products.html">
+        <span class="brand-name">Converse</span>
+        <span class="brand-count">4 รุ่น</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="section-eyebrow">Handpicked</span>
+        <h2>สินค้าแนะนำ</h2>
+      </div>
+      <p>ตัวแทนจากแต่ละแบรนด์ ที่ลูกค้าเลือกซื้อมากที่สุดในเดือนนี้</p>
+    </div>
+    <div class="product-grid" id="featured-grid"></div>
+    <div class="featured-cta">
+      <a href="products.html" class="btn btn-primary">ดูสินค้าทั้งหมด 16 รายการ</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>SneakHub</h4>
+        <p>โปรเจกต์วิชาการพัฒนาเว็บไซต์เชิงโต้ตอบด้วยแนวคิดคณิตศาสตร์ดิสครีตและปัญญาประดิษฐ์</p>
+      </div>
+      <div>
+        <h4>เมนู</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>แบรนด์</h4>
+        <ul>
+          <li><a href="products.html">Nike</a></li>
+          <li><a href="products.html">Adidas</a></li>
+          <li><a href="products.html">Puma / Converse</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SneakHub — Educational Project</span>
+      <span>Built with HTML · CSS · JS</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

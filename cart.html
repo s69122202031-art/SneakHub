@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cart — SneakHub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">SNEAK<span class="dot">HUB</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html" class="cart-link active">Cart <span id="cart-count">0</span></a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="เปิดเมนู">☰</button>
+  </div>
+</header>
+
+<section class="cart-hero">
+  <div class="wrap">
+    <span class="section-eyebrow">Checkout</span>
+    <h1>ตะกร้าสินค้าของคุณ</h1>
+  </div>
+</section>
+
+<div class="wrap" style="padding:48px 24px 80px;">
+  <div class="cart-layout">
+    <div class="cart-list" id="cart-list"></div>
+
+    <aside class="cart-summary hidden" id="cart-summary">
+      <h3>สรุปคำสั่งซื้อ</h3>
+      <div class="summary-row">
+        <span>ยอดรวมสินค้า (Subtotal)</span>
+        <span id="cart-subtotal">฿0</span>
+      </div>
+      <div class="summary-row">
+        <span>ส่วนลด (Discount)</span>
+        <span id="cart-discount">฿0</span>
+      </div>
+      <div class="summary-row total">
+        <span>ยอดสุทธิ (Total)</span>
+        <span id="cart-total">฿0</span>
+      </div>
+      <p class="discount-note" id="discount-note"></p>
+      <span id="cart-brand-summary"></span>
+      <a href="#" class="btn btn-primary checkout-btn" onclick="alert('ขอบคุณสำหรับคำสั่งซื้อ! (เดโมสำหรับโปรเจกต์การศึกษา)'); return false;">ดำเนินการชำระเงิน</a>
+    </aside>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>SneakHub</h4>
+        <p>โปรเจกต์วิชาการพัฒนาเว็บไซต์เชิงโต้ตอบด้วยแนวคิดคณิตศาสตร์ดิสครีตและปัญญาประดิษฐ์</p>
+      </div>
+      <div>
+        <h4>เมนู</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>แบรนด์</h4>
+        <ul>
+          <li><a href="products.html">Nike</a></li>
+          <li><a href="products.html">Adidas</a></li>
+          <li><a href="products.html">Puma / Converse</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SneakHub — Educational Project</span>
+      <span>Built with HTML · CSS · JS</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

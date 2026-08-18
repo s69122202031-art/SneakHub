@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products — SneakHub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">SNEAK<span class="dot">HUB</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="cart.html" class="cart-link">Cart <span id="cart-count">0</span></a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="เปิดเมนู">☰</button>
+  </div>
+</header>
+
+<section class="products-hero">
+  <div class="wrap">
+    <span class="section-eyebrow">Full Catalog</span>
+    <h1>สินค้าทั้งหมด</h1>
+  </div>
+</section>
+
+<div class="wrap">
+  <!-- FILTER BAR -->
+  <div class="filter-bar">
+    <div class="filter-group">
+      <label class="field-label" for="search-input">ค้นหาชื่อสินค้า</label>
+      <input type="text" id="search-input" placeholder="เช่น Air Force, Samba...">
+    </div>
+
+    <div class="filter-group">
+      <label class="field-label">แบรนด์ (Brand Set)</label>
+      <div class="brand-pills" id="brand-filters"></div>
+    </div>
+
+    <div class="filter-group">
+      <label class="field-label">ช่วงราคา (บาท)</label>
+      <div class="price-range-inputs">
+        <input type="number" id="price-min" placeholder="ต่ำสุด" min="0">
+        <span>–</span>
+        <input type="number" id="price-max" placeholder="สูงสุด" min="0">
+      </div>
+    </div>
+
+    <button class="btn btn-outline btn-small" id="reset-filters">ล้างตัวกรอง</button>
+  </div>
+
+  <div class="results-row">
+    <span id="results-count">พบ 16 รายการ</span>
+  </div>
+
+  <section style="padding-top:0;">
+    <div class="product-grid" id="products-grid"></div>
+  </section>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>SneakHub</h4>
+        <p>โปรเจกต์วิชาการพัฒนาเว็บไซต์เชิงโต้ตอบด้วยแนวคิดคณิตศาสตร์ดิสครีตและปัญญาประดิษฐ์</p>
+      </div>
+      <div>
+        <h4>เมนู</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>แบรนด์</h4>
+        <ul>
+          <li><a href="products.html">Nike</a></li>
+          <li><a href="products.html">Adidas</a></li>
+          <li><a href="products.html">Puma / Converse</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SneakHub — Educational Project</span>
+      <span>Built with HTML · CSS · JS</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
