@@ -1,27 +1,27 @@
 const PRODUCTS = [
   // ---- Nike ----
-  { id: "nk-01", brand: "Nike", name: "Air Max Pulse", price: 5490, tag: "Running", color: "#F5F0E6", accent: "#111318" },
-  { id: "nk-02", brand: "Nike", name: "Air Force 1 '07", price: 4290, tag: "Lifestyle", color: "#FFFFFF", accent: "#1D3557" },
-  { id: "nk-03", brand: "Nike", name: "Pegasus Trail 4", price: 4990, tag: "Trail", color: "#E9E1D3", accent: "#6B4F2A" },
-  { id: "nk-04", brand: "Nike", name: "Dunk Low Retro", price: 3990, tag: "Lifestyle", color: "#F1E6D8", accent: "#2E7D32" },
+  { id: "nk-01", brand: "Nike", name: "Air Max Pulse", price: 5490, tag: "Running", color: "#F5F0E6", accent: "#111318", image: "images/nike-air-max-pulse.jpg" },
+  { id: "nk-02", brand: "Nike", name: "Air Force 1 '07", price: 4290, tag: "Lifestyle", color: "#FFFFFF", accent: "#1D3557", image: "images/nike-air-force-1-07.jpg" },
+  { id: "nk-03", brand: "Nike", name: "Pegasus Trail 4", price: 4990, tag: "Trail", color: "#E9E1D3", accent: "#6B4F2A", image: "images/nike-pegasus-trail-4.jpg" },
+  { id: "nk-04", brand: "Nike", name: "Dunk Low Retro", price: 3990, tag: "Lifestyle", color: "#F1E6D8", accent: "#2E7D32", image: "images/nike-dunk-low-retro.jpg" },
  
   // ---- Adidas ----
-  { id: "ad-01", brand: "Adidas", name: "Ultraboost Light", price: 5990, tag: "Running", color: "#111318", accent: "#FFFFFF" },
-  { id: "ad-02", brand: "Adidas", name: "Samba OG", price: 3290, tag: "Lifestyle", color: "#F5F0E6", accent: "#0B3D2E" },
-  { id: "ad-03", brand: "Adidas", name: "Gazelle Indoor", price: 3490, tag: "Lifestyle", color: "#C9A0A0", accent: "#3B1F1F" },
-  { id: "ad-04", brand: "Adidas", name: "Forum Low", price: 3790, tag: "Lifestyle", color: "#FFFFFF", accent: "#1D3557" },
+  { id: "ad-01", brand: "Adidas", name: "Ultraboost Light", price: 5990, tag: "Running", color: "#111318", accent: "#FFFFFF", image: "images/adidas-ultraboost-light.jpg" },
+  { id: "ad-02", brand: "Adidas", name: "Samba OG", price: 3290, tag: "Lifestyle", color: "#F5F0E6", accent: "#0B3D2E", image: "images/adidas-samba-og.jpg" },
+  { id: "ad-03", brand: "Adidas", name: "Gazelle Indoor", price: 3490, tag: "Lifestyle", color: "#C9A0A0", accent: "#3B1F1F", image: "images/adidas-gazelle-indoor.jpg" },
+  { id: "ad-04", brand: "Adidas", name: "Forum Low", price: 3790, tag: "Lifestyle", color: "#FFFFFF", accent: "#1D3557", image: "images/adidas-forum-low.jpg" },
  
   // ---- Puma ----
-  { id: "pm-01", brand: "Puma", name: "Suede Classic XXI", price: 2390, tag: "Lifestyle", color: "#7A1F2B", accent: "#F5F0E6" },
-  { id: "pm-02", brand: "Puma", name: "RS-X Efekt", price: 3990, tag: "Running", color: "#F1E6D8", accent: "#FF5A1F" },
-  { id: "pm-03", brand: "Puma", name: "Palermo Leather", price: 2990, tag: "Lifestyle", color: "#E9E1D3", accent: "#111318" },
-  { id: "pm-04", brand: "Puma", name: "Speedcat OG", price: 3190, tag: "Motorsport", color: "#111318", accent: "#FF5A1F" },
+  { id: "pm-01", brand: "Puma", name: "Suede Classic XXI", price: 2390, tag: "Lifestyle", color: "#7A1F2B", accent: "#F5F0E6", image: "images/puma-suede-classic-xxi.jpg" },
+  { id: "pm-02", brand: "Puma", name: "RS-X Efekt", price: 3990, tag: "Running", color: "#F1E6D8", accent: "#FF5A1F", image: "images/puma-rs-x-efekt.jpg" },
+  { id: "pm-03", brand: "Puma", name: "Palermo Leather", price: 2990, tag: "Lifestyle", color: "#E9E1D3", accent: "#111318", image: "images/puma-palermo-leather.jpg" },
+  { id: "pm-04", brand: "Puma", name: "Speedcat OG", price: 3190, tag: "Motorsport", color: "#111318", accent: "#FF5A1F", image: "images/puma-speedcat-og.jpg" },
  
   // ---- Converse ----
-  { id: "cv-01", brand: "Converse", name: "Chuck Taylor All Star", price: 1990, tag: "Classic", color: "#111318", accent: "#FFFFFF" },
-  { id: "cv-02", brand: "Converse", name: "Chuck 70 Hi", price: 2690, tag: "Classic", color: "#1D3557", accent: "#F5F0E6" },
-  { id: "cv-03", brand: "Converse", name: "Run Star Hike", price: 3390, tag: "Lifestyle", color: "#F5F0E6", accent: "#111318" },
-  { id: "cv-04", brand: "Converse", name: "One Star Pro", price: 2890, tag: "Skate", color: "#7A1F2B", accent: "#F5F0E6" },
+  { id: "cv-01", brand: "Converse", name: "Chuck Taylor All Star", price: 1990, tag: "Classic", color: "#111318", accent: "#FFFFFF", image: "images/converse-chuck-taylor-all-star.jpg" },
+  { id: "cv-02", brand: "Converse", name: "Chuck 70 Hi", price: 2690, tag: "Classic", color: "#1D3557", accent: "#F5F0E6", image: "images/converse-chuck-70-hi.jpg" },
+  { id: "cv-03", brand: "Converse", name: "Run Star Hike", price: 3390, tag: "Lifestyle", color: "#F5F0E6", accent: "#111318", image: "images/converse-run-star-hike.jpg" },
+  { id: "cv-04", brand: "Converse", name: "One Star Pro", price: 2890, tag: "Skate", color: "#7A1F2B", accent: "#F5F0E6", image: "images/converse-one-star-pro.jpg" },
 ];
  
 const CART_KEY = "sneakhub_cart";
@@ -149,7 +149,7 @@ function renderFeatured() {
 function productCardHTML(p) {
   return `
     <article class="product-card" data-id="${p.id}">
-      <div class="product-thumb">${shoeSVG(p)}</div>
+      <div class="product-thumb"><img src="${p.image}" alt="${p.name}" loading="lazy"></div>
       <div class="product-body">
         <div class="product-brandrow">
           <span class="chip">${p.brand}</span>
@@ -329,7 +329,7 @@ function renderCartPage() {
     .map(
       (line) => `
     <div class="cart-row" data-id="${line.product.id}">
-      <div class="cart-thumb">${shoeSVG(line.product)}</div>
+      <div class="cart-thumb"><img src="${line.product.image}" alt="${line.product.name}" loading="lazy"></div>
       <div class="cart-info">
         <span class="chip">${line.product.brand}</span>
         <h4>${line.product.name}</h4>
